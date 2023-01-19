@@ -1,0 +1,1008 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+  background-color: #000000;
+}
+
+a{
+    height: 0px;
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+}
+
+@font-face {
+    font-family: 'FuturaMedium';
+    src: url('/fonts/FuturaStdMedium.otf') format('truetype');
+  }
+@font-face {
+    font-family: 'FuturaBold';
+    src: url('/fonts/FuturaStdBold.otf') format('truetype');
+  }
+@font-face {
+    font-family: 'BebasKai';
+    src: url('/fonts/BebasKai.otf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'FuturaHeavy';
+    src: url('/fonts/FuturaStdHeavy.otf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'FuturaLight';
+    src: url(/fonts/FuturaStdLight.otf) format('truetype');
+  }
+  @font-face {
+    font-family: 'FuturaBook';
+    src: url(/fonts/FuturaStdBook.otf) format('truetype');
+  }
+  @font-face {
+    font-family: 'FuturaMediumOblique';
+    src: url(/fonts/FuturaStdMediumOblique.otf) format('truetype');
+  }
+    /*(Header)*/
+
+.header__isologo{
+    width: 30%;
+}
+
+
+section{
+    background-color: #000000;
+    background-repeat:no-repeat;
+    background-position-x:center;
+    background-position-y:center;
+    background-size: cover;   
+    height: 170px;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.header__{
+    display: flex;
+    padding-top: 2.5%;
+    width: 100%;
+
+}
+
+.logo__{
+    display: block;
+    text-align: center;
+}
+
+
+
+.header__line{
+    padding-top: 2%;
+    width: 55%;
+    height: 1%;
+
+
+}
+
+.header__botonera{
+    font-family: 'FuturaMedium';
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+    gap: 5%;
+    padding-top: 1.8%;
+    padding-left: 2%;
+    
+    
+    
+
+}
+.header__button{
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+    transition: 0.4s;
+    
+    
+}
+
+.header__button:hover{
+  justify-content: space-between;
+  text-decoration: none;
+  color: #F48119;
+  list-style-type: none;
+  transition: 0.4s;
+}
+
+
+.header__logo{
+    text-align: center;
+    size: 504px;
+}
+.imagen_logo{
+    width: 50%;
+    padding-top: 7%;
+}
+ /* SECTION */
+
+.section__{
+  background-image: url(../img-servicios/background_servicios-01.jpg);
+  background-repeat:no-repeat;
+    background-size: cover;   
+    height: 650px;
+    text-align: center;
+    align-items: center;
+}
+
+.section__texto-titulo{
+  font-family: 'FuturaLight';
+  color: #F48119;
+  font-size: 40px;
+  padding-top: 5%;
+}
+
+.section__texto-logo{
+  font-family: 'FuturaHeavy';
+  color: #F48119;
+  width: 30%;
+  padding-top: 20px;
+  margin: 50px;
+
+}
+
+.section__texto-subtitulo{
+  font-family: 'FuturaLight';
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: lighter;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+
+.section__boton{
+  font-family: 'FuturaLight';
+  color: #000000;
+  font-size: 30px;
+  font-weight: lighter;
+  border: #F48119;
+  border-style: solid;
+  width: 1%;
+  text-align: center;
+  align-items: center;
+  background-color: #F48119;
+  transition: 0.4s;
+}
+
+.section__boton:hover{
+  font-family: 'FuturaLight';
+  color: #F48119;
+  font-size: 30px;
+  font-weight: lighter;
+  border: #000000;
+  border-style: solid;
+  width: 1%;
+  text-align: center;
+  align-items: center;
+  background-color: #000000;
+  transition: 0.4s;
+}
+
+.secciones-2__texto-equipos{
+  text-align: center;
+  margin: auto;
+  margin-top: 100px;
+}
+
+/*INICIO DE SECCION DE SERVICIOS*/
+
+.secciones{
+  height: 100%;
+}
+
+.main__TituloGeneral{
+    text-align: center;
+    font-size: 2.9em;
+    color: #ffffff;
+    padding-top: 3%;
+    font-family: 'FuturaMedium';
+}
+.main__TituloPrincipal{
+    text-align: center;
+    font-size: 1.9em;
+    color: #ffffff;
+    margin-bottom: 3%;
+    font-family: 'FuturaMedium';
+}
+.p{
+  width: 100%;
+    font-size: 2.5em;
+    color: #ffffff;
+}
+/*COMIENZO DE CAJAS DE SERVICIOS*/
+.main__ContenedorServicios{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+.main__ContenedorCaja{
+  margin: 10px;
+    border: 5px solid white;
+    width: 18%;
+}
+.main__FotoGenericaEquipos{
+    margin: 20px;
+    width: 40%;
+}
+.main__TituloDescriptivo{
+    color: #F97000;
+    font-size: 1.7em;
+    font-family: 'FuturaMedium';
+    font-weight: lighter;
+}
+.main__ComboYIndividual{
+    font-size: 1.2em;
+    padding-top: 3%;
+    color: white;
+    font-family: 'FuturaLight';
+    font-weight: lighter;
+}
+.main__TextoDescriptivo{
+    margin-top: 6%;
+    color: #F97000;
+    font-family: 'FuturaLight';
+    font-weight: lighter;
+}
+.main_ParrafoBoton{
+  width: 100%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+.main_BotonDeConsultas{
+  color: #000000;
+  background-color: #F48119;
+  padding: 3%;
+  padding-left: 6%;
+  padding-right: 6%;
+  font-size: 1.4rem;
+  font-family: 'FuturaMedium';
+  transition: 0.4s;
+  
+}
+
+.main_BotonDeConsultas:hover{
+  color: #F48119;
+  background-color: #000000;
+  padding: 3%;
+  padding-left: 6%;
+  padding-right: 6%;
+  font-size: 1.4rem;
+  font-family: 'FuturaMedium';
+  transition: 0.4s;
+  
+}
+
+.secciones-2{
+  margin-top: 10rem;
+  background-color: #000000;
+  height: 100%;
+  margin-bottom: 10rem;
+}
+
+.secciones-2__texto{
+  color: #F97000;
+  margin: 40px;
+  font-family: 'FuturaLight';
+  font-weight: bold;
+  font-size: 3.3rem;
+}
+
+.secciones-2__contenedor-servicios{
+  margin: 10px;
+    border: 5px solid white;
+    width: 18%;
+    
+}
+
+.secciones-2__contenedor-texto{
+  color: white;
+  margin-bottom: 150px;
+  font-family: 'FuturaLight';
+  font-size: 2rem;
+
+}
+
+.secciones-2__contenedor{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.secciones-2__fotogenerica{
+  margin-top: 4rem;
+  width: 12rem;
+}
+
+.secciones-2__texto-2{
+  color: #ffffff;
+  margin: 4rem;
+  font-family: 'FuturaLight';
+  font-size: 1.2rem;
+}
+/*FOOTER */
+.footer__{
+  display: flex;
+  padding: 5%;
+  background-color: black;
+  color: white;
+  justify-content: space-around;
+}
+
+.fa-brands{
+  color: #F48119;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.redes__iconos{
+  display: flex;
+}
+
+.nombre__redes{
+  font-family: 'FuturaLight';
+  color: white;
+}
+
+.footer__titulos{
+  font-family: 'FuturaMediumOblique';
+  font-size: 200%;
+  font-weight: lighter;
+  color: #848484;
+}
+
+.fa-solid{
+  color: #F48119;
+  font-size: 30px;
+  text-decoration: none;
+  
+  
+}
+
+.footer__derechos-p{
+  color: white;
+  font-family: 'FuturaLight';
+  text-align: center;
+  font-weight: lighter;
+}
+
+.footer__derechos{
+  background-color: #F48119;
+}
+
+@media (max-width: 1400px) {
+     /*(Header)*/
+
+.header__isologo{
+  width: 30%;
+  margin-left: 25%;
+}
+
+
+section{
+  background-color: #000000;
+  background-repeat:no-repeat;
+  background-position-x:center;
+  background-position-y:center;
+  background-size: cover;   
+  height: 140px;
+  text-align: center;
+  align-items: center;
+  
+}
+
+.header__{
+  display: flex;
+  padding-top: 2.5%;
+  width: 80%;
+
+}
+
+.logo__{
+  display: block;
+  text-align: center;
+}
+
+
+
+.header__line{
+  padding-top: 2%;
+  width: 40%;
+  height: 1%;
+
+
+}
+
+.header__botonera{
+  font-family: 'FuturaMedium';
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  text-decoration: none;
+  gap: 5%;
+  padding-top: 1.8%;
+  padding-left: 2%;
+  
+  
+  
+
+}
+.header__button{
+  justify-content: space-between;
+  text-decoration: none;
+  color: white;
+  list-style-type: none;
+  
+  
+}
+
+.header__button:hover{
+justify-content: space-between;
+text-decoration: none;
+color: #F48119;
+list-style-type: none;
+animation-duration: 17s;
+}
+
+
+.header__logo{
+  text-align: center;
+  size: 504px;
+}
+.imagen_logo{
+  width: 50%;
+  padding-top: 7%;
+}
+/* SECTION */
+
+.section__{
+background-image: url(../img-servicios/background_servicios-01.jpg);
+background-repeat:no-repeat;
+  background-size: cover;   
+  height: 650px;
+  text-align: center;
+  align-items: center;
+}
+
+.section__texto-titulo{
+font-family: 'FuturaLight';
+color: #ffffff;
+font-size: 40px;
+padding-top: 5%;
+}
+
+.section__texto-logo{
+font-family: 'FuturaHeavy';
+color: #F48119;
+width: 80%;
+padding-top: 20px;
+margin: 50px;
+
+}
+
+.section__texto-subtitulo{
+font-family: 'FuturaLight';
+color: #ffffff;
+font-size: 30px;
+font-weight: lighter;
+padding-top: 10px;
+padding-bottom: 50px;
+}
+
+
+.section__boton{
+font-family: 'FuturaLight';
+color: #000000;
+font-size: 30px;
+font-weight: lighter;
+border: #F48119;
+border-style: solid;
+width: 1%;
+text-align: center;
+align-items: center;
+background-color: #F48119;
+}
+
+/*INICIO DE SECCION DE SERVICIOS*/
+
+.secciones{
+height: 100%;
+}
+
+.main__TituloGeneral{
+  text-align: center;
+  font-size: 2.9em;
+  color: #ffffff;
+  padding-top: 3%;
+  font-family: 'FuturaMedium';
+}
+.main__TituloPrincipal{
+  text-align: center;
+  font-size: 1.9em;
+  color: #ffffff;
+  margin-bottom: 3%;
+  font-family: 'FuturaMedium';
+}
+.p{
+width: 100%;
+  font-size: 2.5em;
+  color: #ffffff;
+}
+/*COMIENZO DE CAJAS DE SERVICIOS*/
+.main__ContenedorServicios{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+}
+.main__ContenedorCaja{
+margin: 10px;
+  border: 5px solid white;
+  width: 18%;
+}
+.main__FotoGenericaEquipos{
+  margin: 20px;
+  width: 40%;
+}
+.main__TituloDescriptivo{
+  color: #F97000;
+  font-size: 1.7em;
+  font-family: 'FuturaMedium';
+  font-weight: lighter;
+}
+.main__ComboYIndividual{
+  font-size: 1.2em;
+  padding-top: 3%;
+  color: white;
+  font-family: 'FuturaLight';
+  font-weight: lighter;
+}
+.main__TextoDescriptivo{
+  margin-top: 6%;
+  color: #F97000;
+  font-family: 'FuturaLight';
+  font-weight: lighter;
+}
+.main_ParrafoBoton{
+width: 100%;
+margin-top: 10%;
+margin-bottom: 5%;
+}
+.main_BotonDeConsultas{
+color: #000000;
+background-color: #F48119;
+padding: 3%;
+padding-left: 6%;
+padding-right: 6%;
+font-size: 1.4rem;
+font-family: 'FuturaMedium';
+
+}
+
+.secciones-2{
+margin-top: 10rem;
+background-color: #000000;
+height: 100%;
+margin-bottom: 10rem;
+}
+
+.secciones-2__texto{
+color: #F97000;
+margin: 40px;
+font-family: 'FuturaLight';
+font-weight: bold;
+font-size: 3.3rem;
+}
+
+.secciones-2__contenedor-servicios{
+margin: 10px;
+  border: 5px solid white;
+  width: 30%;
+  
+}
+
+.secciones-2__contenedor-texto{
+color: white;
+margin-bottom: 150px;
+font-family: 'FuturaLight';
+font-size: 2rem;
+
+}
+
+.secciones-2__contenedor{
+display: flex;
+justify-content: center;
+text-align: center;
+gap: 10px;
+}
+
+.secciones-2__fotogenerica{
+margin-top: 4rem;
+width: 12rem;
+}
+
+.secciones-2__texto-2{
+color: #ffffff;
+margin: 4rem;
+font-family: 'FuturaLight';
+font-size: 1.2rem;
+}
+/*FOOTER */
+.footer__{
+display: flex;
+padding: 5%;
+background-color: black;
+color: white;
+justify-content: space-around;
+}
+
+.fa-brands{
+color: #F48119;
+font-size: 30px;
+text-decoration: none;
+}
+
+.redes__iconos{
+display: flex;
+}
+
+.nombre__redes{
+font-family: 'FuturaLight';
+color: white;
+}
+
+.footer__titulos{
+font-family: 'FuturaMediumOblique';
+font-size: 200%;
+font-weight: lighter;
+color: #848484;
+}
+
+.fa-solid{
+color: #F48119;
+font-size: 30px;
+text-decoration: none;
+
+
+}
+
+.footer__derechos-p{
+color: white;
+font-family: 'FuturaLight';
+text-align: center;
+font-weight: lighter;
+}
+
+.footer__derechos{
+background-color: #F48119;
+}
+
+}
+
+
+
+/* whatsapp boton */
+
+.float{
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+font-size:30px;
+  box-shadow: 2px 2px 3px #999;
+z-index:100;
+}
+.float:hover {
+  text-decoration: none;
+  color: #25d366;
+background-color:#fff;
+}
+
+.my-float{
+  margin-top:16px;
+}
+
+@media (max-width: 1600px) {
+  
+.secciones-2__contenedor-servicios{
+  margin: 10px;
+    border: 5px solid white;
+    width: 30%;
+    
+  }
+
+}
+
+@media (max-width: 1000px) {
+
+     /*(Header)*/
+     .header__line{
+      padding-top: 2%;
+      width: 5%;
+      height: 1%;
+      display: none;
+  }
+  .header__isologo{
+      display: none;
+  }
+   
+  
+  section{
+     
+      background-repeat:no-repeat;
+      background-position-x:center;
+      background-position-y:center;
+      background-size: cover;   
+      height: 80px;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      
+  }
+  
+  .header__{
+      display: flex;
+      justify-content: center;
+      width: 90%;
+      margin: auto;
+      
+  }
+  
+  .logo__{
+      display: block;
+      text-align: center;
+  }
+  
+  
+  
+  .header__botonera{
+      font-family: 'FuturaMedium';
+      display: flex;
+      justify-content: space-between;
+      list-style: none;
+      text-decoration: none;
+      gap: 0%;
+      padding-top: 3.9%;
+      padding-left: 0%;
+     width: 100%;
+     
+      
+      
+      
+  
+  }
+  .header__button{
+      justify-content: center;
+      text-decoration: none;
+      color: white;
+      list-style-type: none;
+      margin: auto;
+      
+      
+  }
+  .header__logo{
+      width: auto;
+      size: 504px;
+      display: none;
+  }
+  .imagen_logo{
+      margin-top: 200px;
+      width: 100%;
+      justify-content: center;
+      display: none;
+      
+  }
+  
+    /* SECTION */
+    
+    .section__{
+    background-image: url(../img-servicios/background_servicios-01.jpg);
+    background-repeat:no-repeat;
+      background-size: cover;   
+      height: 600px;
+      text-align: center;
+      align-items: center;
+    }
+    
+    .section__texto-titulo{
+    font-family: 'FuturaLight';
+    color: #ffffff;
+    font-size: 30px;
+    padding-top: 10%;
+    }
+    
+    .section__texto-logo{
+    font-family: 'FuturaHeavy';
+    color: #F48119;
+    width: 80%;
+    padding-top: 20px;
+    margin: 50px;
+    
+    }
+    
+    .section__texto-subtitulo{
+    font-family: 'FuturaLight';
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: lighter;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    }
+    
+    
+    .section__boton{
+    font-family: 'FuturaLight';
+    color: #000000;
+    font-size: 30px;
+    font-weight: lighter;
+    border: #F48119;
+    border-style: solid;
+    width: 1%;
+    text-align: center;
+    align-items: center;
+    background-color: #F48119;
+    }
+    
+    .p{
+      font-size: 0.4rem;
+    }
+
+    /*INICIO DE SECCION DE SERVICIOS*/
+    
+    .secciones{
+    height: 100%;
+    }
+    
+    .main__TituloGeneral{
+      text-align: center;
+      font-size: 2.9em;
+      color: #ffffff;
+      padding-top: 3%;
+      font-family: 'FuturaMedium';
+    }
+    .main__TituloPrincipal{
+      text-align: center;
+      font-size: 1.9em;
+      color: #ffffff;
+      margin-bottom: 3%;
+      font-family: 'FuturaMedium';
+    }
+    .p{
+    width: 100%;
+      font-size: 2.5em;
+      color: #ffffff;
+    }
+    /*COMIENZO DE CAJAS DE SERVICIOS*/
+    .main__ContenedorServicios{
+      margin: auto;
+      display: block ;
+      justify-content: center;
+      text-align: center;
+      gap: 10px;
+    }
+    .main__ContenedorCaja{
+
+    margin: auto;
+      border: none;
+      width: 100%;
+    }
+    .main__FotoGenericaEquipos{
+      margin: auto;
+      width: 190px;
+      margin-top: 100px;
+    }
+    .main__TituloDescriptivo{
+      color: #F97000;
+      font-size: 2.7em;
+      font-family: 'FuturaMedium';
+      font-weight: lighter;
+    }
+    .main__ComboYIndividual{
+      font-size: 1.5em;
+      padding-top: 3%;
+      color: white;
+      font-family: 'FuturaLight';
+      font-weight: lighter;
+    }
+    .main__TextoDescriptivo{
+      margin-top: 6%;
+      color: #F97000;
+      font-family: 'FuturaLight';
+      font-weight: lighter;
+      font-size: 1.4rem;
+    }
+    .main_ParrafoBoton{
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    }
+    .main_BotonDeConsultas{
+    color: #000000;
+    background-color: #F48119;
+    padding: 3%;
+    padding-left: 6%;
+    padding-right: 6%;
+    font-size: 1.4rem;
+    font-family: 'FuturaMedium';
+    
+    }
+    
+    .secciones-2{
+    margin-top: 10rem;
+    background-color: #000000;
+    height: 100%;
+    margin-bottom: 10rem;
+    }
+    
+    .secciones-2__texto{
+    color: #F97000;
+    margin: auto;
+    font-family: 'FuturaLight';
+    font-weight: bold;
+    font-size: 3.3rem;
+    }
+    
+    .secciones-2__contenedor-servicios{
+    margin: auto;
+      border: none;
+      width: 100%;
+      margin-top: 60px;
+      
+    }
+    
+    .secciones-2__contenedor-texto{
+    color: white;
+    margin-bottom: 150px;
+    font-family: 'FuturaLight';
+    font-size: 2rem;
+    
+    }
+    
+    .secciones-2__contenedor{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    gap: 0px;
+    margin: auto;
+    
+    }
+    
+    .secciones-2__fotogenerica{
+    margin-top: 4rem;
+    width: 12rem;
+    margin: auto;
+
+    
+    }
+    
+    .secciones-2__texto-2{
+    color: #ffffff;
+    margin: 4rem;
+    font-family: 'FuturaLight';
+    font-size: 1.2rem;
+    }
+    /*FOOTER */
+    
+   
+    
+    }
+    
